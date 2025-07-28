@@ -2,5 +2,3 @@
 
 Foca mais na semântica no que na forma. (foca no significado)
 
-sjsjss
-
