@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"bdd7ccacad418d0c","type":"text","text":"[[Filas]]","x":-800,"y":-480,"width":250,"height":60,"color":"2"},
+		{"id":"f6ccd65d1ccc9e74","type":"text","text":"[[Listas]]","x":-800,"y":-340,"width":250,"height":60,"color":"2"},
+		{"id":"da7419efe77d5ff3","type":"text","text":"[[Pilhas]]","x":-800,"y":-200,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6c6f381d142c7fb7","type":"text","text":"JAVA","x":-240,"y":-80,"width":250,"height":60,"color":"2"},
+		{"id":"5ae3d71cec4a90da","type":"text","text":"[[Java SE]]","x":120,"y":-210,"width":250,"height":60,"color":"4"},
+		{"id":"fe782386249fe324","type":"text","text":"[[Java EE]]","x":120,"y":-110,"width":250,"height":60,"color":"4"},
+		{"id":"55ee10ad335931aa","type":"text","text":"[[Java ME]]","x":120,"y":-10,"width":250,"height":60,"color":"4"},
+		{"id":"9b787704611169e3","type":"text","text":"[[Java FX]]","x":120,"y":90,"width":250,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"ed2c676776c055b5","fromNode":"6c6f381d142c7fb7","fromSide":"right","toNode":"5ae3d71cec4a90da","toSide":"left"},
+		{"id":"feaaccabf4068d73","fromNode":"6c6f381d142c7fb7","fromSide":"right","toNode":"fe782386249fe324","toSide":"left"},
+		{"id":"1c29b6de9783d770","fromNode":"6c6f381d142c7fb7","fromSide":"right","toNode":"55ee10ad335931aa","toSide":"left"},
+		{"id":"d821d631012a47f9","fromNode":"6c6f381d142c7fb7","fromSide":"right","toNode":"9b787704611169e3","toSide":"left"}
+	]
+}
