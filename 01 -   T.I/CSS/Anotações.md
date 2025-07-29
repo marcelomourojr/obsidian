@@ -9,3 +9,4 @@ Optar sempre pela técnica CSS external.
 CSS externo: usar sempre que puder
 CSS interno: usar para pequenas configurações
 CSS inline: procurar evitar
+
