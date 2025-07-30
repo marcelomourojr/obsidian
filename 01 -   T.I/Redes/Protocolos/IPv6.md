@@ -125,7 +125,66 @@ Possui 7 níveis de prioridade
 Este se refere a um tipo de tráfego com expectativa de atraso mínimo. A eliminação de pacotes é indesejável.
 Níveis de prioridade de 8 a 15
 
-
-
-
 ![[Pasted image 20250724122911.png]]
+
+
+## Técnicas de Transição
+
+**Statefull** → Necessário manter tabelas de estado com informações sobre os endereços com pacotes para processá-los
+
+**Stateless** → Cada pacote é tratado de forma independente
+
+
+
+Túneis IPv4 dentro de IPv6 devem ser preferidos em detrimento de túneis IPv6 sobre IPv4.
+
+**PILHA DUPLA** → Consiste na convivência do IPv4 e do IPv6 nos mesmos equipamentos.
+<font color="#c0504d">Essa é a técnica padrão para a transição para IPv6</font>
+
+**TÚNEIS** → Diferentes redes IPv4 comuniquem-se através de uma rede IPv6, ou vice-versa
+
+**TRADUÇÃO** → Equipamentos IPv6 comuniquem-se com outros que usam IPv4, por meio de conversão dos pacotes
+
+
+### Pilha Dupla
+
+Deve-se configurar toda a arquitetura de Rede para os dois contextos
+
+Implementar o DNS com registros do tipo AAAA (quad A)
+
+Preferência dada ao IPv6
+
+
+### Túneis 6over4 (IPv6 - over - IPv4)
+
+Faz-se o encapsulamento de pacotes IPv6 em pacotes IPv4
+
+Adequar os endereços de origem e destino para o IPv4 e colocar no cabeçalho o tipo 41 (29 em hexadecimal), também conhecido como protocolo 41
+
+No destino, quando receber o tipo 41, a máquina remove o cabeçalho IPv4 e interpreta o cabeçalho IPv6
+
+Do mesmo modo, é possível encapsular pacotes IPv6
+
+
+### Tunnel Broker
+
+
+### NAT444 ou Longe Scale Nat ou GCN
+
+
+
+### NAT64 e DNS64
+
+
+### 6to4
+
+
+### Teredo
+
+
+
+
+
+
+
+
