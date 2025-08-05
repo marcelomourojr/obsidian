@@ -64,3 +64,34 @@
 - Ocorre fim a fim
 
 
+
+## Sequenciamento e Controle de fluxo
+
+**Perda de pacotes utilizando janela deslizante**
+
+- Timeout
+
+- Recebimento de 3ACKs iguais
+
+
+**2 modos de Armazenamento** 
+
+- Go-Back-N: Descartam-se todos os Segmentos posteriores ao erro
+
+- Retransmissão Seletiva: Envia somente a informação perdida
+
+Aparecem em questões de análise de tráfego com o termo SACK (Selective ACK)
+
+## Técnicas de controle de janela deslizante 
+
+**Início da transmissão (RFC 3390):**
+
+Tamanho inicial da janela: IMSS
+
+**Técnica padrão:** <font color="#c0504d">PARTIDA LENTA</font>
+
+**Recuperação Rápida**
+
+- Perda dada a partir de pacotes duplicados triplos
+
+
