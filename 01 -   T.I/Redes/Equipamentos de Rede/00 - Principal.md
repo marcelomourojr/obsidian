@@ -1,4 +1,4 @@
-1
+
 # Equipamentos de Rede
 
 #EquipamentosDeRede #Redes 

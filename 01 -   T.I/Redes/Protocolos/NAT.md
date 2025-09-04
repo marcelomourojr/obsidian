@@ -41,3 +41,6 @@ N:M
 ## NAT - PT
 
 - Conversão de diferentes protocolos, como de IPv6 para IPv4
+
+## port forwarding
+disponibilizar acesso público a serviços hospedados em algum dispositivo da rede local, tais como servidores web.

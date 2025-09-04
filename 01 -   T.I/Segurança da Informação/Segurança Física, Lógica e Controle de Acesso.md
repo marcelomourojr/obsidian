@@ -43,3 +43,14 @@ Pode-se utilizar firewalls, IDS, IPS, proxies, entre outros.
 <font color="#f79646">Atualização do Sistema</font>: é fundamental manter o sistema atualizado para reduzir falhas de segurança existentes 
 
 
+## Controle de Acesso
+
+### **Mandatory Access Control (MAC)**
+O administrador é responsável por atribuir as permissões ao usuário
+
+### **Discretionary Access Control (DAC)**
+Mais flexível, o usuário tem o controle de garantir os privilégios de acesso a recursos que são de seu domínio. Ex: determinar as permissões do arquivo em que ele tem a posse
+
+### **Role-Based Access Control (RBAC)**
+
+
