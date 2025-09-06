@@ -316,27 +316,3 @@ Utiliza o conceito <u>MSS (Max Segment Size)</u>
 
 - Permite a comunicação dos processos das aplicações e usuários com os serviços de rede.
 
-
-Modelo OSI
-
-Camada               Protocolo
-
-7. Aplicação          HTTP, SMTP, FTP, SSH, Telnet, SIP, RDP, IRC, SNMP, NNTP, POP3, IMAP, BitTorrent, DNS, Ping ...
-
-8. Apresentação   XDR, TLS ...
-
-9. Sessão             NetBIOS ...
-
-10. Transporte        NetBEUI, TCP, UDP, RTP, SCTP, DCCP, RIP ...
-
-11. Rede                 IP (IPv4, IPv6), IPsec, ICMP, ARP, RARP, NAT ...
-
-12. Enlace
-
-         Subcamada LLC
-
-         Subcamada MAC
-
-                               Ethernet, 802.11 WiFi, IEEE 802.1Q, 802.11g, HDLC, Token ring, FDDI, PPP, Switch, Frame relay, ATM ...
-
-1.Física                  Modem,    RDIS, RS-232, EIA-422, RS-449, Bluetooth, USB, 10BASE-T, 100BASE-TX, ISDN, SONET, DSL

@@ -6,7 +6,7 @@ Surgiu para recompor a fragilidade do 4-way-handshake, para evitar ataques de re
 
 WPA3 - Personal - 128 bits
 
-WPA3 - Enterprise - EAS-CCMP 128 bits e HMAC-SHA256
+WPA3 - Enterprise - AES-CCMP 128 bits e HMAC-SHA256
 
 
 WPA3 - Enterprise com 192 bits:
