@@ -1,4 +1,6 @@
 
+![[Pasted image 20250905153029.png]]
+
 ## Protocolos da camada de enlace
 
 ### Ethernet
